@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bovespa – Projeto de Matemática 3º Ano</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- BAHIA AUDIO -->
+  <audio id="bahia-audio" loop>
+    <source src="./HINO DO BAHIA(MP3_320K).mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- ════════════════════════════════════════════ -->
+  <!--  🔵⚪ BAHIA MODE OVERLAY ⚪🔵               -->
+  <!-- ════════════════════════════════════════════ -->
+  <div id="bahia-overlay" class="hidden">
+
+    <header class="bh-header">
+      <div class="bh-header-inner">
+        <img src="https://media-bahia.s3.amazonaws.com/wp-content/uploads/2024/09/26125306/Escudo-Bahia-848x1024.webp"
+             alt="Bahia" class="bh-logo-header" id="bh-logo-close" title="Clique para voltar ao projeto 😄">
+        <div class="bh-header-text">
+          <h1>ESPORTE CLUBE BAHIA</h1>
+          <p>O Maior da Bahia · Tricolor de Aço · Desde 1931</p>
+        </div>
+        <img src="https://media-bahia.s3.amazonaws.com/wp-content/uploads/2024/09/26125306/Escudo-Bahia-848x1024.webp"
+             alt="Bahia" class="bh-logo-header">
+      </div>
+      <nav class="bh-nav">
+        <a href="#bh-historia">História</a>
+        <a href="#bh-titulos">Títulos</a>
+        <a href="#bh-estadio">Estádio</a>
+        <a href="#bh-lendas">Lendas</a>
+        <a href="#bh-torcida">Torcida</a>
+        <a href="#bh-hoje">Bahia Hoje</a>
+      </nav>
+    </header>
+
+    <div class="bh-ticker">
+      <div class="bh-ticker-inner">
+        🔵 ESQUECE O IBOVESPA — O QUE IMPORTA É O BAHIA CAMPEÃO! ⚪ &nbsp;·&nbsp;
+        🔵 TRICOLOR DE AÇO! ⚪ &nbsp;·&nbsp; 🔵 VAMOS, BAHIA! ⚪ &nbsp;·&nbsp;
+        🔵 O MAIOR DO NORDESTE! ⚪ &nbsp;·&nbsp; 🔵 BAHIA É PAIXÃO! ⚪ &nbsp;·&nbsp;
+        🔵 ESQUECE O IBOVESPA — O QUE IMPORTA É O BAHIA CAMPEÃO! ⚪ &nbsp;·&nbsp;
+        🔵 TRICOLOR DE AÇO! ⚪ &nbsp;·&nbsp; 🔵 VAMOS, BAHIA! ⚪ &nbsp;·&nbsp;
+      </div>
+    </div>
+
+    <!-- BAHIA HERO -->
+    <section class="bh-hero">
+      <div class="bh-hero-escudo">
+        <img src="https://media-bahia.s3.amazonaws.com/wp-content/uploads/2024/09/26125306/Escudo-Bahia-848x1024.webp"
+             alt="Escudo do Bahia" class="bh-escudo-big">
+      </div>
+      <div class="bh-hero-text">
+        <div class="bh-badge">⚽ Fundado em 1931</div>
+        <h2>O <span class="bh-hl">Tricolor de Aço</span><br>que conquistou o Brasil</h2>
+        <p>Do bairro da Barra em Salvador para o coração de milhões. O EC Bahia é mais que um clube — é uma <strong>identidade, uma paixão, uma história de glórias!</strong></p>
+        <div class="bh-stats-row">
+          <div class="bh-stat"><span class="bh-stat-n">1931</span><span class="bh-stat-l">Fundação</span></div>
+          <div class="bh-stat"><span class="bh-stat-n">2x</span><span class="bh-stat-l">Campeão Brasileiro</span></div>
+          <div class="bh-stat"><span class="bh-stat-n">8x</span><span class="bh-stat-l">Copa do NE</span></div>
+          <div class="bh-stat"><span class="bh-stat-n">50+</span><span class="bh-stat-l">Títulos no total</span></div>
+        </div>
+      </div>
+    </section>
+
+    <main class="bh-main">
+
+      <!-- HISTÓRIA -->
+      <section class="bh-section" id="bh-historia">
+        <div class="bh-tag">01</div>
+        <h2>📖 História do Clube</h2>
+        <p class="bh-intro">Quase 100 anos de história cheia de glórias, superações e amor incondicional!</p>
+        <div class="bh-timeline">
+          <div class="bh-tl-item">
+            <div class="bh-tl-year">1931</div>
+            <div class="bh-tl-body"><strong>Fundação</strong><br>O EC Bahia é fundado em <strong>1º de janeiro de 1931</strong> em Salvador. Surge da fusão de dois clubes menores e já nasce com as cores azul, branco e vermelho — o Tricolor!</div>
+          </div>
+          <div class="bh-tl-item">
+            <div class="bh-tl-year">1959</div>
+            <div class="bh-tl-body"><strong>Primeiro Campeão Nacional</strong><br>O Bahia conquista a <strong>Taça Brasil de 1959</strong>, tornando-se o <em>primeiro clube do Nordeste</em> a ser campeão nacional! Uma vitória histórica para toda a região.</div>
+          </div>
+          <div class="bh-tl-item">
+            <div class="bh-tl-year">1988</div>
+            <div class="bh-tl-body"><strong>Bicampeonato Brasileiro</strong><br>Ano histórico! O Bahia vence o <strong>Campeonato Brasileiro de 1988</strong>, conquistando seu segundo título nacional. Uma geração de ouro eternizada no coração tricolor!</div>
+          </div>
+          <div class="bh-tl-item">
+            <div class="bh-tl-year">2001</div>
+            <div class="bh-tl-body"><strong>Rei do Nordeste</strong><br>O Bahia conquista a <strong>Copa do Nordeste de 2001</strong>, iniciando uma longa trajetória de domínio regional. Hoje é o maior vencedor do torneio com 8 títulos!</div>
+          </div>
+          <div class="bh-tl-item">
+            <div class="bh-tl-year">2013</div>
+            <div class="bh-tl-body"><strong>Arena Fonte Nova</strong><br>A nova <strong>Arena Fonte Nova</strong> é inaugurada, com capacidade para 56 mil pessoas. O Bahia passa a ter um dos estádios mais modernos e bonitos do Brasil.</div>
+          </div>
+          <div class="bh-tl-item">
+            <div class="bh-tl-year">2023</div>
+            <div class="bh-tl-body"><strong>City Football Group</strong><br>O grupo dono do <strong>Manchester City</strong> adquire participação majoritária no Bahia. Nova era começa: investimentos históricos, infraestrutura de ponta e ambição europeia chegam a Salvador!</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TÍTULOS -->
+      <section class="bh-section bh-alt" id="bh-titulos">
+        <div class="bh-tag">02</div>
+        <h2>🏆 Títulos e Conquistas</h2>
+        <p class="bh-intro">Mais de 50 títulos que comprovam a grandeza do Tricolor!</p>
+        <div class="bh-titulo-grid">
+          <div class="bh-titulo-card grande">
+            <div class="t-icon">🏆</div>
+            <h3>Campeonato Brasileiro</h3>
+            <div class="t-count">2x</div>
+            <p>1959 · 1988</p>
+          </div>
+          <div class="bh-titulo-card grande">
+            <div class="t-icon">👑</div>
+            <h3>Copa do Nordeste</h3>
+            <div class="t-count">8x</div>
+            <p>Maior vencedor da história</p>
+          </div>
+          <div class="bh-titulo-card">
+            <div class="t-icon">⭐</div>
+            <h3>Campeonato Baiano</h3>
+            <div class="t-count">50x</div>
+            <p>O rei do estado!</p>
+          </div>
+          <div class="bh-titulo-card">
+            <div class="t-icon">🥇</div>
+            <h3>Taça Brasil</h3>
+            <div class="t-count">1x</div>
+            <p>Pioneiro nacional</p>
+          </div>
+          <div class="bh-titulo-card">
+            <div class="t-icon">🎖️</div>
+            <h3>Torneio do Norte-Nordeste</h3>
+            <div class="t-count">3x</div>
+            <p>Domínio regional</p>
+          </div>
+          <div class="bh-titulo-card">
+            <div class="t-icon">🌟</div>
+            <h3>Outros Torneios</h3>
+            <div class="t-count">+10x</div>
+            <p>Taças e torneios históricos</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ESTÁDIO -->
+      <section class="bh-section" id="bh-estadio">
+        <div class="bh-tag">03</div>
+        <h2>🏟️ A Arena Fonte Nova</h2>
+        <p class="bh-intro">O templo do futebol baiano — uma das arenas mais modernas e bonitas do Brasil!</p>
+        <div class="bh-grid bh-cols2">
+          <div class="bh-card"><div class="bh-ci">📍</div><h3>Localização</h3><p>No coração de Salvador, próxima ao <strong>Dique do Tororó</strong>, um dos cartões postais da cidade. Uma arena que faz parte da paisagem de Salvador!</p></div>
+          <div class="bh-card"><div class="bh-ci">🪑</div><h3>Capacidade</h3><p>Comporta <strong>56.500 torcedores</strong>. Uma das maiores do Nordeste e uma das mais modernas do Brasil — digna do maior clube da região!</p></div>
+          <div class="bh-card"><div class="bh-ci">🏗️</div><h3>Copa do Mundo 2014</h3><p>Inaugurada em 2013 e usada na <strong>Copa do Mundo de 2014</strong>. Recebeu jogos históricos do mundial, incluindo Argélia x Coreia do Sul e Alemanha x Argélia.</p></div>
+          <div class="bh-card"><div class="bh-ci">🔊</div><h3>Atmosfera Única</h3><p>Com 56 mil tricolores cantando em uníssono, o barulho ecoa por toda Salvador. Uma das torcidas mais barulhentas e animadas do futebol brasileiro!</p></div>
+        </div>
+      </section>
+
+      <!-- LENDAS -->
+      <section class="bh-section bh-alt" id="bh-lendas">
+        <div class="bh-tag">04</div>
+        <h2>⭐ Lendas do Tricolor</h2>
+        <p class="bh-intro">Jogadores que fizeram história com a camisa listrada e ficaram para sempre no coração tricolor!</p>
+        <div class="bh-grid">
+          <div class="bh-lenda">
+            <div class="lenda-num">9</div>
+            <h3>Bebeto</h3>
+            <p>Revelado no Bahia e ídolo antes de ir para o Flamengo. Campeão do <strong>mundo em 1994</strong> pela Seleção Brasileira. Um dos maiores atacantes da história do futebol.</p>
+            <div class="lenda-era">Década de 1980</div>
+          </div>
+          <div class="bh-lenda">
+            <div class="lenda-num">10</div>
+            <h3>Careca</h3>
+            <p>Outro craque que passou pelo Bahia antes de se consagrar. Artilheiro de raça, fez parte das gerações que colocaram o Tricolor no mapa nacional do futebol.</p>
+            <div class="lenda-era">Geração de ouro</div>
+          </div>
+          <div class="bh-lenda">
+            <div class="lenda-num">7</div>
+            <h3>Everton Ribeiro</h3>
+            <p>Revelado nas categorias de base do Bahia. Foi para o Flamengo e se tornou um dos melhores do Brasil — <strong>Campeão da Libertadores</strong> e da Copa América pela Seleção.</p>
+            <div class="lenda-era">Revelação do Bahia</div>
+          </div>
+          <div class="bh-lenda">
+            <div class="lenda-num">11</div>
+            <h3>Régis</h3>
+            <p>Meia técnico e ídolo das campanhas mais recentes do clube. O "cérebro" do time nas temporadas de destaque, com gols e assistências marcantes para a torcida tricolor.</p>
+            <div class="lenda-era">Ídolo recente</div>
+          </div>
+          <div class="bh-lenda">
+            <div class="lenda-num">1</div>
+            <h3>Anderson Talisca</h3>
+            <p>Revelado no Bahia, foi para a Europa e fez carreira de alto nível. Jogou na Turquia e Arábia Saudita. Prova de que o Tricolor revela talentos de nível mundial!</p>
+            <div class="lenda-era">Revelação para o mundo</div>
+          </div>
+          <div class="bh-lenda">
+            <div class="lenda-num">8</div>
+            <h3>Titi</h3>
+            <p>Zagueiro ídolo do Bahia em uma das fases mais recentes do clube. Liderança dentro e fora de campo, representou o Tricolor com garra e qualidade técnica.</p>
+            <div class="lenda-era">Capitão tricolor</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TORCIDA -->
+      <section class="bh-section" id="bh-torcida">
+        <div class="bh-tag">05</div>
+        <h2>🔥 A Nação Tricolor</h2>
+        <p class="bh-intro">A maior e mais apaixonada torcida do Nordeste. Quando o Bahia joga, Salvador para!</p>
+        <div class="bh-torcida-stats">
+          <div class="bh-ts"><span class="bh-ts-n">8 mi+</span><span class="bh-ts-l">Torcedores declarados</span></div>
+          <div class="bh-ts"><span class="bh-ts-n">#1</span><span class="bh-ts-l">Maior torcida do Nordeste</span></div>
+          <div class="bh-ts"><span class="bh-ts-n">50k+</span><span class="bh-ts-l">Média de público na arena</span></div>
+        </div>
+        <div class="bh-grid bh-cols2">
+          <div class="bh-card"><div class="bh-ci">🥁</div><h3>A Garra Tricolor</h3><p>Os tambores, os cânticos e o mar azul e branco nas arquibancadas arrepiam qualquer pessoa. A Nação Tricolor é considerada uma das mais apaixonadas do Brasil.</p></div>
+          <div class="bh-card"><div class="bh-ci">🎵</div><h3>O Hino</h3><p>O hino do Bahia emociona gerações. <em>"Salve o Esporte Clube Bahia..."</em> — uma letra que une milhões de tricolores. <strong>E você já está ouvindo ele agora! 😄</strong></p></div>
+          <div class="bh-card"><div class="bh-ci">🌎</div><h3>Bahia no Mundo</h3><p>Com a chegada do City Football Group, torcedores tricolores agora se conectam com fãs de Manchester City, Girona e outros 12 clubes da rede pelo mundo.</p></div>
+          <div class="bh-card"><div class="bh-ci">💙</div><h3>Identidade de Salvador</h3><p>O azul e branco estão no sangue de Salvador — nas ruas, nas festas, no Carnaval e na vida cotidiana. O Bahia não é só um clube, é parte da alma da cidade!</p></div>
+        </div>
+      </section>
+
+      <!-- BAHIA HOJE -->
+      <section class="bh-section bh-alt" id="bh-hoje">
+        <div class="bh-tag">06</div>
+        <h2>🚀 O Bahia de Hoje</h2>
+        <p class="bh-intro">Com o City Football Group, o Tricolor vive a era mais ambiciosa de sua história!</p>
+        <div class="bh-grid">
+          <div class="bh-card"><div class="bh-ci">🏙️</div><h3>City Football Group</h3><p>Em 2023, o grupo dono do <strong>Manchester City</strong> assumiu o controle do Bahia. Trouxe investimentos em infraestrutura, tecnologia e conexões globais sem precedentes na história do clube.</p></div>
+          <div class="bh-card"><div class="bh-ci">📊</div><h3>Ambição Máxima</h3><p>Disputar a <strong>Libertadores</strong> e brigar por títulos nacionais é o objetivo. Com elenco qualificado, estrutura de ponta e torcida apaixonada, o sonho está mais próximo do que nunca!</p></div>
+          <div class="bh-card"><div class="bh-ci">🏗️</div><h3>Centro de Treinamento</h3><p>Novos investimentos no <strong>CT do Bahia</strong> com tecnologia europeia de ponta, para revelar talentos e manter atletas de alto nível com estrutura digna do clube.</p></div>
+          <div class="bh-card"><div class="bh-ci">👕</div><h3>Visibilidade Global</h3><p>Com a rede do City Group, o Bahia agora tem parceiros globais, visibilidade internacional e atrai jogadores que antes jamais considerariam o futebol nordestino.</p></div>
+        </div>
+        <div class="bh-callout">
+          🔵⚪ <strong>O futuro é TRICOLOR!</strong> Com investimentos crescentes, uma das maiores torcidas do Brasil e uma história de quase 100 anos de glórias, o Bahia está pronto para escrever novos capítulos épicos. <strong>VAMOS, BAHIA! 🏆</strong>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="bh-footer">
+      <img src="https://media-bahia.s3.amazonaws.com/wp-content/uploads/2024/09/26125306/Escudo-Bahia-848x1024.webp"
+           alt="Bahia" style="height:60px;opacity:0.9;margin-bottom:12px">
+      <p>🔵⚪ ESPORTE CLUBE BAHIA · O MAIOR DA BAHIA ⚪🔵</p>
+      <p class="bh-footer-hint">👆 Clique no escudo do Bahia no topo para voltar ao projeto de Matemática 😄</p>
+    </footer>
+
+  </div><!-- /bahia-overlay -->
+
+
+  <!-- ════════════════════════════════════════════ -->
+  <!--  SITE NORMAL — BOVESPA                      -->
+  <!-- ════════════════════════════════════════════ -->
+  <div id="site-normal">
+
+    <header id="site-header">
+      <div class="header-inner">
+        <div class="logos">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/LOGO_UNASP_-_AZUL_CENTRALIZADO.png"
+               alt="Unasp" class="logo" id="logo-unasp" onerror="this.style.display='none'">
+          <div class="logo-text" id="logo-marcos">📐 MarcosMatico</div>
+          <img src="https://media-bahia.s3.amazonaws.com/wp-content/uploads/2024/09/26125306/Escudo-Bahia-848x1024.webp"
+               alt="Bahia" class="logo logo-bahia" id="logo-bahia"
+               title="Clique aqui... se tiver coragem 😏">
+        </div>
+        <div class="header-title">
+          <h1>📈 Bovespa</h1>
+          <p>Entenda a Bolsa de Valores de forma simples e divertida</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#commodities">Commodities</a>
+        <a href="#investidor">Investidor</a>
+        <a href="#brasileiros">Brasileiros</a>
+        <a href="#moedas">Moedas</a>
+        <a href="#alta-baixa">Alta & Baixa</a>
+        <a href="#mundo">Mundo</a>
+        <a href="#capital">Capital</a>
+        <a href="#profissoes">Profissões</a>
+        <a href="#riscos">Riscos</a>
+        <a href="#referencias">Referências</a>
+      </nav>
+    </header>
+
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <div class="hero-badge">Projeto Escolar · 3º Ano · UNASP</div>
+        <h2>O que é a <span class="highlight">Bovespa</span>?</h2>
+        <p>A <strong>B3</strong> (antiga Bovespa) é a bolsa de valores do Brasil — o lugar onde empresas e investidores se encontram para negociar ações, títulos e muito mais. É como um grande mercado, mas em vez de frutas e verduras, o que se vende são <em>pedaços de empresas</em>!</p>
+        <div class="hero-stats">
+          <div class="stat-card"><span class="stat-num">+400</span><span class="stat-label">Empresas listadas</span></div>
+          <div class="stat-card"><span class="stat-num">R$ 4,5 tri</span><span class="stat-label">Valor de mercado</span></div>
+          <div class="stat-card"><span class="stat-num">7 mi+</span><span class="stat-label">Investidores PF</span></div>
+        </div>
+        <p class="hero-hint">💡 <em>Psst... tente clicar no logo do Bahia no topo 😏</em></p>
+      </div>
+      <div class="hero-graphic">
+        <div class="chart-anim">
+          <div class="bar b1"></div><div class="bar b2"></div><div class="bar b3"></div>
+          <div class="bar b4"></div><div class="bar b5"></div><div class="bar b6"></div>
+          <div class="bar b7"></div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+
+      <section class="card-section" id="commodities">
+        <div class="section-num">01</div>
+        <h2>🌾 Principais Commodities na Bovespa</h2>
+        <p class="section-intro">Commodities são produtos básicos, geralmente de origem natural, negociados no mercado financeiro. No Brasil, elas têm peso enorme!</p>
+        <div class="cards-grid">
+          <div class="info-card"><div class="card-icon">🐄</div><h3>Boi Gordo</h3><p>Brasil é um dos maiores exportadores de carne do mundo. O contrato de boi gordo é um dos mais negociados na B3.</p><div class="tag">💰 Proteção contra inflação</div></div>
+          <div class="info-card"><div class="card-icon">☕</div><h3>Café</h3><p>O Brasil é o maior produtor mundial. Os contratos futuros de café permitem que produtores garantam preços com antecedência.</p><div class="tag">💰 Estabilidade de preço</div></div>
+          <div class="info-card"><div class="card-icon">🌱</div><h3>Soja</h3><p>Principal produto do agronegócio brasileiro. A soja em grão e o farelo são negociados amplamente na bolsa.</p><div class="tag">💰 Alta liquidez</div></div>
+          <div class="info-card"><div class="card-icon">🛢️</div><h3>Petróleo</h3><p>Mesmo sendo negociado via ações da Petrobras, o preço do petróleo influencia diretamente a bolsa brasileira.</p><div class="tag">💰 Grande volume</div></div>
+          <div class="info-card"><div class="card-icon">⚡</div><h3>Energia Elétrica</h3><p>Contratos de energia são negociados na B3, permitindo gestão de risco para grandes consumidores industriais.</p><div class="tag">💰 Previsibilidade</div></div>
+          <div class="info-card"><div class="card-icon">🌽</div><h3>Milho & Etanol</h3><p>O milho é base da alimentação e do etanol. O Brasil é um dos maiores produtores mundiais dos dois.</p><div class="tag">💰 Diversificação</div></div>
+        </div>
+        <div class="callout">✅ <strong>Vantagens de investir em commodities:</strong> proteção contra inflação, diversificação da carteira, exposição ao agronegócio e potencial de valorização com demanda global.</div>
+      </section>
+
+      <section class="card-section alt-bg" id="investidor">
+        <div class="section-num">02</div>
+        <h2>🧠 Qual é o Seu Perfil de Investidor?</h2>
+        <p class="section-intro">Antes de investir, é fundamental conhecer seu perfil. Cada pessoa tem uma relação diferente com o risco!</p>
+        <div class="investor-grid">
+          <div class="investor-card cons"><div class="inv-icon">🐢</div><h3>Conservador</h3><ul><li>Prioriza segurança acima de tudo</li><li>Aceita rendimentos menores para ter tranquilidade</li><li>Prefere: Tesouro Direto, CDB, poupança</li></ul><em class="inv-lema">"Mais vale um pássaro na mão..."</em></div>
+          <div class="investor-card mod"><div class="inv-icon">🦊</div><h3>Moderado</h3><ul><li>Aceita um pouco de risco em troca de retorno maior</li><li>Mistura renda fixa com renda variável</li><li>Prefere: Fundos mistos, ações blue chips, FIIs</li></ul><em class="inv-lema">"Equilíbrio é a chave"</em></div>
+          <div class="investor-card arr"><div class="inv-icon">🦁</div><h3>Arrojado</h3><ul><li>Busca os maiores retornos possíveis</li><li>Tolera grandes oscilações no saldo</li><li>Prefere: Ações, derivativos, criptomoedas</li></ul><em class="inv-lema">"Alto risco, alta recompensa!"</em></div>
+        </div>
+        <div class="callout">💡 <strong>Não existe perfil certo ou errado!</strong> O importante é investir de acordo com seus objetivos e quanto você aguenta ver o saldo oscilar sem entrar em pânico. 😅</div>
+      </section>
+
+      <section class="card-section" id="brasileiros">
+        <div class="section-num">03</div>
+        <h2>🇧🇷 A Bolsa na Vida dos Brasileiros</h2>
+        <p class="section-intro">Investir na bolsa deixou de ser coisa de rico. Hoje, qualquer pessoa com R$ 100 pode começar!</p>
+        <div class="timeline">
+          <div class="tl-item"><div class="tl-year">2002</div><div class="tl-body">Menos de <strong>100 mil</strong> investidores PF na bolsa. Era exclusividade de grandes bancos e fortunas.</div></div>
+          <div class="tl-item"><div class="tl-year">2010</div><div class="tl-body">Surgem as primeiras <strong>corretoras digitais</strong>. XP Investimentos populariza o acesso ao mercado.</div></div>
+          <div class="tl-item"><div class="tl-year">2018</div><div class="tl-body"><strong>700 mil</strong> CPFs cadastrados. A cultura de investimento começa a crescer no Brasil.</div></div>
+          <div class="tl-item"><div class="tl-year">2021</div><div class="tl-body">Recorde: <strong>5 milhões</strong> de investidores PF. Pandemia acelerou o interesse em finanças pessoais.</div></div>
+          <div class="tl-item"><div class="tl-year">2024</div><div class="tl-body">Mais de <strong>7 milhões</strong> de CPFs investindo. Apps de investimento estão no celular de toda uma geração.</div></div>
+        </div>
+        <div class="cards-grid cols2">
+          <div class="info-card"><div class="card-icon">📱</div><h3>Democratização Digital</h3><p>Apps como Rico, Clear, NuInvest e XP tornaram possível investir pelo celular, sem taxa de corretagem e com valores mínimos baixíssimos.</p></div>
+          <div class="info-card"><div class="card-icon">📚</div><h3>Educação Financeira</h3><p>Canais do YouTube, podcasts e redes sociais criaram uma geração que aprendeu a investir antes dos 25 anos.</p></div>
+        </div>
+      </section>
+
+      <section class="card-section alt-bg" id="moedas">
+        <div class="section-num">04</div>
+        <h2>💱 Principais Moedas na Bovespa</h2>
+        <p class="section-intro">O mercado de câmbio move bilhões todos os dias. Entender as moedas é essencial para quem investe!</p>
+        <div class="cards-grid">
+          <div class="info-card"><div class="card-icon">🇺🇸</div><h3>Dólar (USD)</h3><p>A moeda mais negociada do mundo. Sobe quando há instabilidade no Brasil e influencia exportadoras diretamente.</p><div class="tag">💰 Proteção cambial</div></div>
+          <div class="info-card"><div class="card-icon">🇪🇺</div><h3>Euro (EUR)</h3><p>Moeda da União Europeia. Importante para empresas que negociam com a Europa e em contratos futuros na B3.</p><div class="tag">💰 Diversificação</div></div>
+          <div class="info-card"><div class="card-icon">🇬🇧</div><h3>Libra (GBP)</h3><p>Uma das moedas mais valorizadas historicamente. Importante para empresas com negócios no Reino Unido.</p><div class="tag">💰 Alta estabilidade</div></div>
+          <div class="info-card"><div class="card-icon">🇯🇵</div><h3>Iene (JPY)</h3><p>Considerada "porto seguro" global. Em momentos de crise, investidores correm para o iene.</p><div class="tag">💰 Ativo de segurança</div></div>
+          <div class="info-card"><div class="card-icon">🪙</div><h3>Bitcoin (BTC)</h3><p>Não é moeda tradicional, mas tem ETFs listados na B3 e atrai milhões de investidores brasileiros.</p><div class="tag">💰 Alto potencial</div></div>
+          <div class="info-card"><div class="card-icon">🇧🇷</div><h3>Real (BRL)</h3><p>Nossa moeda! O Real é negociado frente às demais em contratos de câmbio. Estabilidade depende da política econômica.</p><div class="tag">💰 Referência local</div></div>
+        </div>
+      </section>
+
+      <section class="card-section" id="alta-baixa">
+        <div class="section-num">05</div>
+        <h2>📊 Bolsa em Alta × Bolsa em Baixa</h2>
+        <p class="section-intro">Você já ouviu no jornal: "A bolsa fechou em alta hoje"? Mas o que isso significa de verdade?</p>
+        <div class="alta-baixa-wrap">
+          <div class="ab-card alta">
+            <h3>📈 Bolsa em ALTA</h3>
+            <p>O <strong>Ibovespa</strong> subiu em relação ao fechamento anterior. As ações valorizaram na média.</p>
+            <ul><li>✅ Investidores estão otimistas</li><li>✅ Empresas com bons resultados</li><li>✅ Economia mostra crescimento</li><li>✅ Consumo e crédito aquecidos</li></ul>
+            <div class="ab-efeito"><strong>Efeito:</strong> Empresas se valorizam, facilita captação de investimentos, gera empregos e renda.</div>
+          </div>
+          <div class="vs-circle">VS</div>
+          <div class="ab-card baixa">
+            <h3>📉 Bolsa em BAIXA</h3>
+            <p>O <strong>Ibovespa</strong> caiu em relação ao fechamento anterior. As ações desvalorizaram na média.</p>
+            <ul><li>❌ Investidores pessimistas</li><li>❌ Notícias ruins sobre a economia</li><li>❌ Crises políticas ou internacionais</li><li>❌ Aumento da Selic</li></ul>
+            <div class="ab-efeito"><strong>Efeito:</strong> Empresas valem menos, dificulta investimentos, pode afetar empregos.</div>
+          </div>
+        </div>
+        <div class="callout">🧠 <strong>Curiosidade:</strong> Mercado de urso 🐻 (bear market) = queda prolongada. Mercado de touro 🐂 (bull market) = alta prolongada. Termos usados no mundo todo!</div>
+      </section>
+
+      <section class="card-section alt-bg" id="mundo">
+        <div class="section-num">06</div>
+        <h2>🌍 A Bovespa e as Bolsas do Mundo</h2>
+        <p class="section-intro">O mercado financeiro é globalizado. O que acontece em Nova York ou Tóquio pode afetar sua carteira aqui no Brasil!</p>
+        <div class="bolsas-grid">
+          <div class="bolsa-item"><span class="bf">🇺🇸</span><div><strong>NYSE & NASDAQ</strong><p>As maiores bolsas do mundo. Quando caem, geralmente puxam as demais — inclusive a B3.</p></div></div>
+          <div class="bolsa-item"><span class="bf">🇬🇧</span><div><strong>London Stock Exchange</strong><p>Uma das mais antigas do mundo. Centro financeiro europeu com forte influência em commodities.</p></div></div>
+          <div class="bolsa-item"><span class="bf">🇯🇵</span><div><strong>Tokyo Stock Exchange</strong><p>Maior bolsa da Ásia. Abre antes das ocidentais, dando um termômetro do humor do mercado global.</p></div></div>
+          <div class="bolsa-item"><span class="bf">🇨🇳</span><div><strong>Shanghai Stock Exchange</strong><p>A China é parceira nº 1 do Brasil. Quando a economia chinesa vai mal, as commodities sofrem.</p></div></div>
+          <div class="bolsa-item"><span class="bf">🇩🇪</span><div><strong>Frankfurt (DAX)</strong><p>Principal bolsa europeia. Reflete a saúde da economia alemã, a maior da Europa.</p></div></div>
+          <div class="bolsa-item"><span class="bf">🇧🇷</span><div><strong>B3 (Brasil)</strong><p>Nossa bolsa! Integrada ao sistema global — sofre influências externas, mas tem fatores internos únicos.</p></div></div>
+        </div>
+        <div class="callout">🔗 <strong>Conexão global:</strong> Quando os EUA anunciam alta nos juros, investidores saem de emergentes como o Brasil. Resultado: o dólar sobe e nossa bolsa cai!</div>
+      </section>
+
+      <section class="card-section" id="capital">
+        <div class="section-num">07</div>
+        <h2>🏛️ Mecanismos de Acumulação de Capital</h2>
+        <p class="section-intro">Como o dinheiro "trabalha" e se multiplica dentro do mercado financeiro?</p>
+        <div class="steps-row">
+          <div class="step-box"><div class="step-n">1</div><h3>💼 Formação</h3><p>Pessoa economiza parte da renda e decide investir em vez de deixar na poupança.</p></div>
+          <div class="step-arrow">→</div>
+          <div class="step-box"><div class="step-n">2</div><h3>📊 Investimento</h3><p>O capital vai para ações ou fundos. A empresa recebe recurso para crescer e inovar.</p></div>
+          <div class="step-arrow">→</div>
+          <div class="step-box"><div class="step-n">3</div><h3>📈 Valorização</h3><p>Se a empresa cresce, as ações sobem. O investidor recebe dividendos ou lucra na venda.</p></div>
+          <div class="step-arrow">→</div>
+          <div class="step-box"><div class="step-n">4</div><h3>🔄 Reinvestimento</h3><p>O lucro é reinvestido, criando o efeito dos juros compostos — a bola de neve!</p></div>
+        </div>
+        <div class="cards-grid cols2">
+          <div class="info-card"><div class="card-icon">🏦</div><h3>Renda Fixa</h3><p>O capital é emprestado ao governo ou banco, que paga juros fixos ou vinculados à Selic/CDI. Previsível e seguro.</p></div>
+          <div class="info-card"><div class="card-icon">📈</div><h3>Renda Variável</h3><p>O capital vira parte de uma empresa (ação). O retorno depende do desempenho da empresa. Maior risco, maior potencial.</p></div>
+        </div>
+      </section>
+
+      <section class="card-section alt-bg" id="profissoes">
+        <div class="section-num">08</div>
+        <h2>👩‍💼 Profissões no Mercado Financeiro</h2>
+        <p class="section-intro">O mercado financeiro gera milhares de empregos qualificados e bem remunerados!</p>
+        <div class="cards-grid">
+          <div class="prof-card"><div class="prof-icon">🎓</div><h3>Economista</h3><p><strong>O que faz:</strong> Analisa indicadores, projeta cenários e orienta decisões de empresas e governos.</p><p><strong>Formação:</strong> Ciências Econômicas (4-5 anos)</p><div class="salario">💰 R$ 5.000 – R$ 15.000/mês</div></div>
+          <div class="prof-card"><div class="prof-icon">📋</div><h3>Corretor de Investimentos</h3><p><strong>O que faz:</strong> Auxilia clientes a investir e acompanha carteiras. Executa ordens de compra e venda.</p><p><strong>Formação:</strong> Adm./Economia + CPA-20 ou CEA</p><div class="salario">💰 R$ 4.000 – R$ 20.000/mês + comissões</div></div>
+          <div class="prof-card"><div class="prof-icon">🔍</div><h3>Analista de Investimentos</h3><p><strong>O que faz:</strong> Pesquisa empresas e recomenda compra ou venda de ações com base em relatórios.</p><p><strong>Formação:</strong> Economia/Contabilidade + CNPI</p><div class="salario">💰 R$ 7.000 – R$ 25.000/mês</div></div>
+          <div class="prof-card"><div class="prof-icon">🤖</div><h3>Trader</h3><p><strong>O que faz:</strong> Compra e vende ativos no curto prazo buscando lucrar com oscilações. Alto risco!</p><p><strong>Formação:</strong> Autodidata + certificações + muita prática</p><div class="salario">💰 Variável (pode perder ou ganhar muito)</div></div>
+          <div class="prof-card"><div class="prof-icon">⚙️</div><h3>Gestor de Fundos</h3><p><strong>O que faz:</strong> Administra carteiras de fundos com capital de milhares de cotistas.</p><p><strong>Formação:</strong> Economia/Adm + CGA (ANBIMA)</p><div class="salario">💰 R$ 15.000 – R$ 50.000/mês</div></div>
+          <div class="prof-card"><div class="prof-icon">⚖️</div><h3>Advogado Financeiro</h3><p><strong>O que faz:</strong> Cuida dos aspectos legais de contratos, fusões e IPOs no mercado de capitais.</p><p><strong>Formação:</strong> Direito (5 anos) + especialização</p><div class="salario">💰 R$ 10.000 – R$ 40.000/mês</div></div>
+        </div>
+      </section>
+
+      <section class="card-section" id="riscos">
+        <div class="section-num">09</div>
+        <h2>⚠️ Riscos no Mercado de Investimentos</h2>
+        <p class="section-intro">Todo investimento tem risco. O segredo não é eliminá-los — é entendê-los e gerenciá-los!</p>
+        <div class="cards-grid">
+          <div class="risco-card"><div class="risco-h"><span>🏛️</span><h3>Risco de Mercado</h3></div><div class="risco-body"><p><strong>O que é:</strong> Variação dos preços por fatores econômicos, políticos ou globais.</p><p><strong>Por que acontece:</strong> Crises, mudanças na taxa de juros, resultados de empresas.</p><div class="drible">🎯 <strong>Como driblá-lo:</strong> Diversificar a carteira em diferentes ativos e setores.</div></div></div>
+          <div class="risco-card"><div class="risco-h"><span>💧</span><h3>Risco de Liquidez</h3></div><div class="risco-body"><p><strong>O que é:</strong> Dificuldade de vender um ativo rapidamente sem perder valor.</p><p><strong>Por que acontece:</strong> Ativos com baixo volume ou prazos de resgate longos.</p><div class="drible">🎯 <strong>Como driblá-lo:</strong> Manter parte em ativos de alta liquidez como o Tesouro Selic.</div></div></div>
+          <div class="risco-card"><div class="risco-h"><span>🏢</span><h3>Risco de Crédito</h3></div><div class="risco-body"><p><strong>O que é:</strong> Possibilidade de o emissor do título não pagar o que deve.</p><p><strong>Por que acontece:</strong> Empresa ou governo com dificuldades financeiras.</p><div class="drible">🎯 <strong>Como driblá-lo:</strong> Verificar rating de crédito. CDB com cobertura do FGC.</div></div></div>
+          <div class="risco-card"><div class="risco-h"><span>🌍</span><h3>Risco Sistêmico</h3></div><div class="risco-body"><p><strong>O que é:</strong> Colapso do sistema financeiro como um todo (ex: crise de 2008).</p><p><strong>Por que acontece:</strong> Falências em cascata, bolhas especulativas, pandemias.</p><div class="drible">🎯 <strong>Como driblá-lo:</strong> Ter reserva de emergência fora da bolsa e pensar no longo prazo.</div></div></div>
+          <div class="risco-card"><div class="risco-h"><span>🧠</span><h3>Risco Comportamental</h3></div><div class="risco-body"><p><strong>O que é:</strong> Decisões movidas por emoção — medo ou ganância.</p><p><strong>Por que acontece:</strong> Pânico em quedas, euforia em altas, "seguir a manada".</p><div class="drible">🎯 <strong>Como driblá-lo:</strong> Ter um plano sólido e não olhar o saldo todo dia!</div></div></div>
+          <div class="risco-card"><div class="risco-h"><span>📜</span><h3>Risco Regulatório</h3></div><div class="risco-body"><p><strong>O que é:</strong> Mudanças em leis ou regulamentações que afetam investimentos.</p><p><strong>Por que acontece:</strong> Mudanças de governo, crises fiscais, novas regulamentações.</p><div class="drible">🎯 <strong>Como driblá-lo:</strong> Acompanhar notícias e diversificar em diferentes jurisdições.</div></div></div>
+        </div>
+      </section>
+
+      <section class="card-section alt-bg" id="referencias">
+        <div class="section-num">📚</div>
+        <h2>Referências Bibliográficas</h2>
+        <div class="refs-list">
+          <div class="ref-item"><strong>B3 – Brasil, Bolsa, Balcão.</strong> Site oficial. Disponível em: <a href="https://www.b3.com.br" target="_blank">www.b3.com.br</a>. Acesso em: mar. 2026.</div>
+          <div class="ref-item"><strong>BANCO CENTRAL DO BRASIL.</strong> Educação Financeira. Disponível em: <a href="https://www.bcb.gov.br" target="_blank">www.bcb.gov.br</a>. Acesso em: mar. 2026.</div>
+          <div class="ref-item"><strong>ANBIMA.</strong> Associação Brasileira das Entidades dos Mercados Financeiro e de Capitais. Disponível em: <a href="https://www.anbima.com.br" target="_blank">www.anbima.com.br</a>. Acesso em: mar. 2026.</div>
+          <div class="ref-item"><strong>HALFELD, Mauro.</strong> <em>Investimentos: Como Administrar Melhor Seu Dinheiro.</em> São Paulo: Editora Fundamento, 2008.</div>
+          <div class="ref-item"><strong>GRAHAM, Benjamin.</strong> <em>O Investidor Inteligente.</em> Rio de Janeiro: HarperCollins Brasil, 2016.</div>
+          <div class="ref-item"><strong>INFOMONEY.</strong> Portal de Finanças. Disponível em: <a href="https://www.infomoney.com.br" target="_blank">www.infomoney.com.br</a>. Acesso em: mar. 2026.</div>
+          <div class="ref-item"><strong>G1 – ECONOMIA.</strong> Portal Globo. Disponível em: <a href="https://g1.globo.com/economia" target="_blank">g1.globo.com/economia</a>. Acesso em: mar. 2026.</div>
+          <div class="ref-item"><strong>NEFIN – USP.</strong> Núcleo de Pesquisa em Economia Financeira. Disponível em: <a href="http://www.nefin.com.br" target="_blank">www.nefin.com.br</a>. Acesso em: mar. 2026.</div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer id="site-footer">
+      <div class="footer-inner">
+        <p>📐 Projeto de Matemática · 3º Ano · Colégio UNASP</p>
+        <p>Professor: MarcosMatico · Entrega: 30/03/2026</p>
+      </div>
+    </footer>
+
+  </div><!-- /site-normal -->
+
+  <script src="script.js"></script>
+</body>
+</html>
